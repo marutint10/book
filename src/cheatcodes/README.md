@@ -360,5 +360,6 @@ interface CheatCodes {
     function rpcUrl(string calldata) external returns (string memory);
     /// Returns all rpc urls and their aliases `[alias, url][]`
     function rpcUrls() external returns (string[2][] memory);
+    
 }
 ```
